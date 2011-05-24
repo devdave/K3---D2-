@@ -1,0 +1,6 @@
+1. Download Latest copy of D2 to modules/doctrine2/classes/vendor/doctrine (See readme file in that directory)
+2. Add module to your bootstrap file:
+Kohana::modules(array(
+	...
+	 'doctrine2'   		=> MODPATH.'doctrine2',   		// Doctrine 2 ORM
+));
